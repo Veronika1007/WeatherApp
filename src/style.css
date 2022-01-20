@@ -34,6 +34,7 @@ form {
   margin-right: auto;
   text-align: center;
 }
+
 .weather-app {
   border: 1px solid #dadde1;
   padding: 15px;
@@ -97,4 +98,9 @@ form {
 .col-sm {
   color: #005792;
   text-align: center;
+}
+.sourceLink {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
