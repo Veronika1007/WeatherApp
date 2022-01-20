@@ -1,0 +1,100 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #e3f6f5;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-weight: 300;
+  color: #005792;
+}
+strong {
+  font-weight: bold;
+  font-size: larger;
+}
+ul {
+  position: relative;
+  text-align: right;
+  list-style-type: none;
+  right: 10px;
+  top: -150px;
+  font-style: oblique;
+}
+a {
+  text-decoration: none;
+}
+a:after {
+  color: cadetblue;
+}
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+#currentLocation {
+  display: block;
+  margin: auto;
+}
+
+.form-control {
+  max-width: 200px;
+  text-align: center;
+  margin: auto;
+}
+.temp-conversion {
+  position: relative;
+  text-align: right;
+  top: -30px;
+}
+
+.min-temp {
+  position: relative;
+  margin-left: 28%;
+  margin-right: auto;
+  top: 90px;
+}
+.arrow-left {
+  font-size: 20px;
+  position: relative;
+  margin-left: 38%;
+  margin-right: auto;
+  top: 45px;
+}
+.sunshine {
+  font-size: 60px;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.arrow-right {
+  font-size: 20px;
+  position: relative;
+  margin-left: 60%;
+  margin-right: auto;
+  top: -35px;
+}
+.max-temp {
+  position: relative;
+  margin-left: 65%;
+  margin-right: auto;
+  top: -90px;
+}
+.forecast {
+  position: relative;
+  top: -80px;
+}
+.col-sm {
+  color: #005792;
+  text-align: center;
+}
